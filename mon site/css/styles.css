@@ -1,0 +1,226 @@
+body {
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 20px;
+	background-color: #f2f2f2;
+	color: #454545;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-width: 100px; 
+  height: auto;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+main {
+	padding: 20px;
+}
+
+section, aside {
+	margin-bottom: 20px;
+}
+
+aside { 
+	color: #fff; 
+	padding: 50px;
+}
+
+aside h3{
+	color: #e74c3c;
+}
+
+aside h2{
+	color: #ffcc00;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fond {
+	background-image: url(../image/chevalier.jpg);
+	background-size: cover; /* Ajustez selon vos préférences (cover, contain, etc.) */
+	background-position: center center; /* Ajustez la position de l'image dans le fond */
+	background-repeat: no-repeat;
+	
+}
+
+.fond2 {
+	background-color: transparent;
+	color: #fff;
+}
+
+.fond3 {
+	background-color: transparent;
+	color: #A80000;
+<}
+
+.hero-section {
+	background-color: transparent;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.hero-section h2 {
+	font-size: 2em;
+}
+
+.hero-section p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #8e44ad; /* Violet foncé */
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #8e44ad; /* Violet foncé */
+	color: #fff;
+}
+
+/* styles pour la section histoire*/
+
+.histoire-section {
+	background-color: #2c3e50;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.histoire-section h2 {
+	color: #2980b9; /* Bleu clair */
+}
+
+.histoire-section h3 {
+	color: #c0392b; /* Rouge foncé */
+}
+
+.histoire-section p {
+	font-size: 1.1em;
+	line-height: 1.6;
+}
+
+.histoire-section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.histoire-section ul li {
+	margin-bottom: 10px;
+}
+
+/* style versions emblématiques */
+
+.histoire-section ul li strong {
+	color: #27ae60; /* Vert émeraude */
+}
+
+/* Styles pour une ambiance médiéval fantasy pour les campagnes */
+
+.campagnes-section {
+	background-color: #1f2d3d; /* Bleu foncé (ciel nocturne) */
+	background-image: url(../image/fond.jpg);
+	background-size: cover; /* Ajustez selon vos préférences (cover, contain, etc.) */
+	background-position: center center; /* Ajustez la position de l'image dans le fond */
+	background-repeat: no-repeat;
+	color: #000000; 
+	font-weight: bold;
+	padding: 30px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.campagnes-section h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	color: #3E0D42; 
+	font-weight: bold;
+}
+
+.campagnes-section article {
+	margin-bottom: 30px;
+}
+
+.campagnes-section img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.campagnes-section h3 {
+	font-size: 1.5em;
+	margin-top: 10px;
+	color:#FF0004;
+	font-weight: bold;
+}
+
+.campagnes-section p {
+	line-height: 1.6;
+}
+
+.campagnes-section a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #404040; 
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.campagnes-section a:hover {
+  background-color: #000; /* Bleu foncé au survol */
+}
+
+.img-classe {
+  width: 150px; /* Définissez la largeur de l'image */
+  height: 200px; /* Définissez la hauteur de l'image */
+  float: right;
+  margin-top: -80px; /* Ajustez la valeur négative pour déplacer l'image vers le haut */
+}
